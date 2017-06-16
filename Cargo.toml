@@ -1,0 +1,12 @@
+[package]
+name = "iaca-marker-macros"
+version = "0.1.0"
+authors = ["Henry de Valence <hdevalence@hdevalence.ca>"]
+license = "CC0-1.0"
+repository = "https://github.com/hdevalence/iaca-marker-macros"
+documentation = "https://docs.rs/iaca-marker-macros"
+keywords = ["intel", "profiling"]
+description = "This crate provides UNOFFICIAL macros to generate markers in Rust code for the Intel Architecture Code Analyzer.  NOT AFFILIATED WITH OR ENDORSED BY INTEL."
+exclude = [ ".gitignore" ]
+
+[dependencies]
