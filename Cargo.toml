@@ -2,6 +2,7 @@
 name = "iaca-marker-macros"
 version = "0.1.0"
 authors = ["Henry de Valence <hdevalence@hdevalence.ca>"]
+edition = "2018"
 license = "CC0-1.0"
 repository = "https://github.com/hdevalence/iaca-marker-macros"
 documentation = "https://docs.rs/iaca-marker-macros"

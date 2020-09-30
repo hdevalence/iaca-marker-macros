@@ -27,11 +27,7 @@
 macro_rules! iaca_start_marker {
     () => {
         unsafe {
-            asm! (
-                "mov ebx, 111 
-                .byte 0x64, 0x67, 0x90"
-                : : : "ebx" : "intel", "volatile"
-            );
+            asm!("mov ebx, 111", ".byte 0x64, 0x67, 0x90");
         }
     };
 }
@@ -41,11 +37,7 @@ macro_rules! iaca_start_marker {
 macro_rules! iaca_end_marker {
     () => {
         unsafe {
-            asm! (
-                "mov ebx, 222 
-                .byte 0x64, 0x67, 0x90"
-                : : : "ebx" : "intel", "volatile"
-            );
+            asm!("mov ebx, 222", ".byte 0x64, 0x67, 0x90");
         }
     };
 }
